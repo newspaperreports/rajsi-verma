@@ -10,7 +10,7 @@ function closeWorld() {
 
 // Responsive Mobile Script Area //
 function openMbCgList() {
-    document.getElementById('openMbSlideMenu').style.width = "320px"
+    document.getElementById('openMbSlideMenu').style.width = "330px"
 }
 
 function closeMbCgList() {

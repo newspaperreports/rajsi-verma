@@ -1,0 +1,162 @@
+
+:root {
+    --npr-atc-hostList-font: "Roboto", sans-serif;
+}
+
+.npr_atc_tag a {
+    font: 600 14px / 18px var(--npr-atc-hostList-font);
+    display: inline-block;
+    color: #06a6f0;
+    /* float: right; */
+    margin: 10px 0;
+}
+
+.npr_article_ct {
+    margin: 0 0 20px 0;
+}
+
+.npr_article_host {
+    margin-bottom: 10px;
+}
+
+.npr_atc_hostLists {
+    display: flex;
+    gap: 6px;
+}
+
+.npr_atc_hostLists li {
+    list-style-type: none;
+}
+
+.npr_atc_hostLists li a {
+    display: block;
+    position: relative;
+    font: 600 14px / 28px "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.npr_atc_hostLi a:hover {
+    color: #ec0854;
+}
+
+.npr_atc_hostLi .npr_atc_hostLink::after {
+    content: '';
+    display: inline-block;
+    border-right: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    transform: rotate(-45deg);
+    width: 5px;
+    height: 5px;
+    color: #000;
+    margin: 0 6px 1px;
+}
+
+@media (max-width: 700px) {
+    .npr_atc_hostLists {
+        flex-wrap: wrap;
+    }
+}
+/* End NPR Article Host List */
+
+.npr_article_dt {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    background: #000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.npr_atc_title {
+    font: 700 26px / 28px var(--npr-atc-hostList-font);
+    color: #fff;
+    padding: 0 0 10px;
+}
+
+.npr_atc_des {
+    font: 500 14px / 18px var(--npr-atc-hostList-font);
+    color: #fff;
+}
+
+
+.npr_atc_thumb img {
+    width: 100%;
+    min-width: auto;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 820px) {
+    .npr_article_dt {
+        flex-wrap: wrap;
+    }
+}
+
+/* Perosonal Details */
+.npr_atc_personal .npr_atc_title {
+    color: #000;
+}
+
+
+
+.npr_atc_title .npr_atc_onVideoplay:hover {
+    color: #ec0854;
+    cursor: pointer;
+}
+
+.npr_atc_onHDbx {
+    display: none;
+}
+
+.npr_atc_onHDbox_ct {
+    display: inline-block;
+    border: 1px solid #000;
+    margin: 10px 0px 20px;
+}
+
+.npr_atc_onHDplay {
+    text-align: center;
+}
+
+.npr_atc_onHDplay iframe {
+    display: block;
+}
+/* End Open Video Play Design */
+
+.npr_atc_tbl_ct table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.npr_atc_tbl_ct .npr_atc_tblHead {
+    color: #000;
+    font: 700 16px / 18px;
+}
+
+.npr_atc_tbl_ct td {
+    font-size: 16px;
+    line-height: 18px;
+    border: 1px solid #00000033;
+    padding: 10px;
+    color: #000;
+}
+
+.npr_atc_tbl_ct td:hover {
+    background-color: #4d4b4b2a;
+}
+
+.npr_atc_tbl_ct td img {
+    padding: 10px 0 0;
+    border-radius: 5px;
+}
+
+.npr_atc_about .npr_atc_abt {
+    font-size: 14px;
+    line-height: 18px;
+    color: #303030;
+    display: inline-block;
+    position: relative;
+}
+
